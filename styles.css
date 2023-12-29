@@ -9,6 +9,10 @@
   font-family: "Inter", system-ui, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .row {
   width: 100%;
   max-width: 1200px;
@@ -46,6 +50,6 @@
   font-weight: 900;
 }
 
-.nav__logo--title:hover {
+.nav__logo:hover .nav__logo--title {
   color: rgb(100, 21, 255);
 }
