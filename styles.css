@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+
 /* GENERAL */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 .row {
@@ -22,11 +25,14 @@
 
 .nav__logo {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav__logo--img--wrapper {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
 }
 
 .nav__logo--img {
@@ -35,4 +41,6 @@
 }
 
 .nav__logo--title {
+  color: black;
+  font-size: 24px;
 }
