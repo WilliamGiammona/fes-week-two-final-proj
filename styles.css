@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap");
 
 /* GENERAL */
 
@@ -20,6 +20,10 @@ a {
 }
 
 /* NAVIGATION */
+
+.nav-container {
+  padding: 32px;
+}
 
 .nav {
   display: flex;
@@ -48,14 +52,38 @@ a {
   color: rgb(36, 62, 99);
   font-size: 24px;
   font-weight: 900;
+  padding-bottom: 0.25rem;
+  transition: all 300ms ease;
 }
 
 .nav__logo:hover .nav__logo--title {
   color: rgb(100, 21, 255);
+  box-shadow: outset;
 }
 
 .nav__links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  list-style-type: none;
+}
+
+.nav__links--link {
+  color: rgb(36, 62, 99);
+  font-size: 600;
+  font-size: 14px;
+  margin: 0 24px;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid transparent;
+  transition: all 300ms ease;
+  box-shadow: outset;
+}
+
+.nav__links--log-in--link {
+  margin-left: 48px;
+}
+
+.nav__links--link:hover {
+  color: rgb(100, 21, 255);
+  border-bottom: 2px solid rgb(100, 21, 255);
 }
