@@ -41,6 +41,11 @@
 }
 
 .nav__logo--title {
-  color: black;
+  color: rgb(36, 62, 99);
   font-size: 24px;
+  font-weight: 900;
+}
+
+.nav__logo--title:hover {
+  color: rgb(100, 21, 255);
 }
