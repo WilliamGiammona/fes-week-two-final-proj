@@ -53,3 +53,21 @@ a {
 .nav__logo:hover .nav__logo--title {
   color: rgb(100, 21, 255);
 }
+
+.nav__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__links--regular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__links--log-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
