@@ -23,6 +23,14 @@ a {
   color: rgb(100, 21, 255);
 }
 
+.text--white {
+  color: rgb(247, 250, 252) !important;
+}
+
+.border {
+  border-color: rgb(102 126 234) !important;
+}
+
 /* NAVIGATION */
 
 .nav-container {
@@ -591,4 +599,74 @@ a {
   text-align: center;
   width: 75%;
   margin: 0 auto;
+}
+
+.prices__container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 10px rgba(235, 232, 232, 0.5);
+  margin-bottom: 3rem;
+}
+
+.prices__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 7rem;
+  border: 1px solid rgb(226, 232, 240);
+}
+
+.prices__subtitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: rgb(26, 32, 44);
+}
+
+.prices__title {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: rgb(26, 32, 44);
+  font-size: 48px;
+}
+
+.pricing__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 2rem;
+}
+
+.prices__monthly {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: rgb(160 174 192);
+}
+
+.prices__main-feature {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: rgb(26, 32, 44);
+  margin-bottom: 1rem;
+}
+
+.feature {
+  margin-top: 0.4rem;
+  font-weight: 500;
+  color: rgb(113, 128, 150);
+  font-size: 0.9rem;
+  line-height: 24px;
+  letter-spacing: normal;
+}
+
+.purple--background {
+  background-color: rgb(100, 21, 255);
+  background-image: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
 }
