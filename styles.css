@@ -74,7 +74,7 @@ a {
 
 .nav__links--link {
   color: rgb(36, 62, 99);
-  font-size: 600;
+  font-weight: 600;
   font-size: 14px;
   margin: 0 24px;
   padding-bottom: 0.25rem;
@@ -153,7 +153,7 @@ a {
   opacity: 0.5;
   font-size: 0.75rem;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
@@ -164,4 +164,61 @@ a {
 
 .header__info--partners--pic {
   width: 100%;
+}
+
+/* MAIN */
+
+.main__container {
+  padding: 80px 0;
+}
+
+.main__features--container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main__features__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.main__features__info--heading {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color: rgb(36 62 99);
+}
+
+.main__features__info--para {
+  text-align: center;
+  font-size: 1.125rem;
+  margin: 1rem 0;
+  font-weight: 500;
+  line-height: 1.625;
+  color: rgb(124 139 161);
+  width: 60%;
+}
+
+.main__features--offered--list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main__features--offered--wrapper {
+  width: calc(100% / 3);
+}
+
+.main__features--offered--title {
 }
