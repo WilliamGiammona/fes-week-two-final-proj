@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
 
 /* GENERAL */
 
@@ -221,4 +221,17 @@ a {
 }
 
 .main__features--offered--title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.025em;
+  margin-top: 1rem;
+  color: rgb(36 62 99);
+}
+
+.main__features--offered--para {
+  margin-top: 1rem;
+  font-weight: 500;
+  line-height: 2;
+  color: rgb(124 139 161);
 }
