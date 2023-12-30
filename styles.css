@@ -184,6 +184,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 4rem;
 }
 
 .feature {
@@ -239,10 +240,14 @@ a {
 }
 
 .main__features--offered--img--wrapper {
-  padding: 1.25rem;
+  padding: 2rem;
   border: 1px solid rgb(226, 232, 240);
-  border-radius: 9999px;
+  border-radius: 50%;
   flex-shrink: 0;
-}
-.main__features--offered--img--wrapper {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
 }
