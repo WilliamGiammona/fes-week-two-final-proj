@@ -214,10 +214,12 @@ a {
 .main__features--offered--list {
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .main__features--offered--wrapper {
   width: calc(100% / 3);
+  display: flex;
 }
 
 .main__features--offered--title {
@@ -234,4 +236,13 @@ a {
   font-weight: 500;
   line-height: 2;
   color: rgb(124 139 161);
+}
+
+.main__features--offered--img--wrapper {
+  padding: 1.25rem;
+  border: 1px solid rgb(226, 232, 240);
+  border-radius: 9999px;
+  flex-shrink: 0;
+}
+.main__features--offered--img--wrapper {
 }
