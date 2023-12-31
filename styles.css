@@ -656,7 +656,7 @@ a {
 
 .feature {
   margin-top: 0.4rem;
-  font-weight: 500;
+  font-weight: 700;
   color: rgb(113, 128, 150);
   font-size: 0.9rem;
   line-height: 24px;
@@ -1215,9 +1215,11 @@ a {
   }
 
   .started__img--wrapper {
+    margin-right: 0;
     margin-bottom: 4rem;
   }
 
+  .started__info--title,
   .started__info--subtitle {
     text-align: center;
   }
@@ -1309,6 +1311,10 @@ a {
     text-align: center;
   }
 
+  .feedback__info--para {
+    font-size: 0.875rem;
+  }
+
   .feedback__star-img--wrapper {
     align-self: center;
   }
@@ -1338,4 +1344,110 @@ a {
 }
 
 @media screen and (max-width: 576px) {
+  .header__img--wrapper {
+    width: 90%;
+  }
+
+  .main__features__info--heading {
+    font-size: 2.25rem;
+  }
+
+  .main__features--offered--wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__features--offered--img--wrapper {
+    margin-right: 0;
+  }
+
+  .main__features--offered--title,
+  .main__features--offered--para {
+    text-align: center;
+  }
+
+  .design__img--wrapper {
+    width: 90%;
+  }
+
+  .design__info {
+    width: 90%;
+  }
+
+  .design__info--title {
+    font-size: 1.875rem;
+  }
+
+  .started__img--wrapper {
+    width: 80%;
+  }
+
+  .started__info {
+    width: 80%;
+  }
+
+  .values__img--wrapper {
+    width: 90%;
+  }
+
+  .values__info--title {
+    font-size: 1.875rem;
+  }
+
+  .values__info--adv {
+    width: 85%;
+  }
+
+  .pricing__info--title {
+    font-size: 2.25rem;
+  }
+
+  .pricing__info--para {
+    width: 100%;
+  }
+
+  .feedback__img--wrapper {
+    margin-right: 0;
+    width: 80%;
+  }
+
+  .feedback__info {
+    width: 80%;
+  }
+
+  .feedback__info--title {
+    font-size: 1.875rem;
+  }
+
+  .feedback__testimonial--wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feedback__testimonail--profile--pic--wrapper {
+    margin-bottom: 1rem;
+  }
+
+  .feedback__testimonial--subtitle {
+    margin-bottom: 0.2rem;
+  }
+
+  .start__small-width--wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .start__contact-us {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  .footer__links {
+    justify-content: space-around;
+  }
+
+  .footer__links--wrapper {
+    width: calc(100% / 4);
+    margin-bottom: 2rem;
+  }
 }
