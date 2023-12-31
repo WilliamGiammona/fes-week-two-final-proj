@@ -786,3 +786,40 @@ a {
   width: 100%;
   height: 100%;
 }
+
+.feedback__star-img--wrapper {
+  margin-top: 1.5rem;
+  width: 8rem;
+  height: 2rem;
+}
+
+.feedback__star-img {
+  width: 100%;
+  height: 100%;
+}
+
+.feedback__testimonial--title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.025em;
+  color: rgb(36, 62, 99);
+}
+
+.feedback__testimonial--wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.feedback__testimonail--profile--pic--wrapper {
+  width: 70px;
+  height: 70px;
+}
+
+.feedback__testimonail--profile--pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
