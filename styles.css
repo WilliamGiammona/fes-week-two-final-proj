@@ -755,6 +755,14 @@ a {
   color: rgb(124 139 161);
 }
 
+.feedback__info--para--dark {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625;
+  color: rgb(46, 62, 99);
+}
+
 .feedback__info--link {
   margin-top: 2rem;
   color: white;
@@ -904,6 +912,10 @@ a {
   color: rgb(100, 21, 255);
 }
 
+.start__small-width--wrapper {
+  display: flex;
+}
+
 /* FOOTER */
 
 .footer {
@@ -1004,4 +1016,138 @@ a {
 .footer__social-media {
   height: 100%;
   width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .header__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__info {
+    width: 60%;
+  }
+
+  .header__info--title {
+    font-size: 1.875rem;
+    text-align: center;
+  }
+
+  .header__info--para {
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  .header__info--partners {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .header__info--partners--pic--wrapper {
+    margin: 0 auto;
+  }
+
+  .main__features--offered--wrapper {
+    width: 45%;
+    margin-right: 2rem;
+  }
+
+  .design--wrapper {
+    margin-left: 2rem;
+  }
+
+  .design__info {
+    padding-right: 2.5rem;
+  }
+
+  .design__info--title {
+    font-size: 2.25rem;
+  }
+
+  .design__info--para {
+    font-size: 1rem;
+  }
+
+  .design__img--wrapper {
+    margin-top: 2rem;
+  }
+
+  .started__info--title {
+    font-size: 2.25rem;
+  }
+
+  .values--wrapper {
+    margin-left: 2rem;
+  }
+
+  .values__info--title {
+    font-size: 2.25rem;
+  }
+
+  .values__info--para {
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+
+  .values__info--adv {
+    flex-direction: column;
+    width: 65%;
+  }
+
+  .values__info--adv--container {
+    margin-bottom: 2rem;
+  }
+
+  .values__info--adv--title {
+    margin-left: 0;
+  }
+
+  .values__info--adv--img--wrapper {
+    margin-right: 0.1 rem;
+  }
+
+  .values__info--link {
+    margin-top: 0;
+  }
+
+  .values__img--wrapper {
+    margin-top: 10rem;
+  }
+
+  .pricing__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feedback__info--title {
+    font-size: 2.25rem;
+  }
+
+  .feedback__img--wrapper {
+    margin-top: 10rem;
+  }
+
+  .start__wrapper {
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .start__title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .footer__links {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .footer__legal {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
