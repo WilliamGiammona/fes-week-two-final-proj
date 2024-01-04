@@ -7,7 +7,7 @@ function closeMenu() {
 }
 
 const fn = (a) => {
-  return a.length;
+  return a[0];
 };
 
-console.log(fn([true, "dog", ""]));
+console.log(fn(["mooja", "dog", ""]));
