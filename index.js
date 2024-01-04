@@ -6,9 +6,14 @@ function closeMenu() {
   document.body.classList.remove("menu--open");
 }
 
-const fn = (num) => {
-  min = Math.floor(num / 60);
-  seconds = num % 60;
+const fn = (numArr) => {
+  let lrgNum = numArr[0];
+  for (i = 0; i < numArr.length; i++) {
+    if (numArr[i] > lrgNum) {
+      lrgNum = numArr[i];
+    }
+  }
+  return lrgNum;
 };
 
-console.log(fn(7));
+console.log(fn([-30, -4, -7, -5]));
