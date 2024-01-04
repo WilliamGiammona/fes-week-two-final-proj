@@ -7,10 +7,8 @@ function closeMenu() {
 }
 
 const fn = (arr) => {
-  let newArr = arr.map((item) => {
-    return 0;
-  });
+  const newArr = arr.filter((item) => (item === "apple" ? false : true));
   return newArr;
 };
 
-console.log(fn(["CocoMooja", 4, 3, true]));
+console.log(fn(["CocoMooja", 4, 3, "apple", true]));
