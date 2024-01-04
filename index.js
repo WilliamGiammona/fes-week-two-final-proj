@@ -6,8 +6,8 @@ function closeMenu() {
   document.body.classList.remove("menu--open");
 }
 
-const fn = (a, b) => {
-  return a == false ? a : b;
+const fn = (a) => {
+  return a.length;
 };
 
-console.log(fn([true, "dog"]));
+console.log(fn([true, "dog", ""]));
