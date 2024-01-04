@@ -10,4 +10,4 @@ const fn = (a, b) => {
   return a == false ? a : b;
 };
 
-console.log(fn(false, 100));
+console.log(fn([true, "dog"]));
