@@ -7,11 +7,8 @@ function closeMenu() {
 }
 
 const fn = (num) => {
-  let sum = 0;
-  for (let i = 0; i <= num; i++) {
-    sum += i;
-  }
-  return sum;
+  min = Math.floor(num / 60);
+  seconds = num % 60;
 };
 
-console.log(fn(700));
+console.log(fn(7));
