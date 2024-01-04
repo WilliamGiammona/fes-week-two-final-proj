@@ -7,7 +7,9 @@ function closeMenu() {
 }
 
 const fn = (arr) => {
-  let newArr = arr.filter((element) => element != false);
+  let newArr = arr.map((item) => {
+    return !!item == true ? true : false;
+  });
   return newArr;
 };
 
