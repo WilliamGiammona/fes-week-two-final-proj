@@ -6,14 +6,12 @@ function closeMenu() {
   document.body.classList.remove("menu--open");
 }
 
-const fn = (numArr) => {
-  let lrgNum = numArr[0];
-  for (i = 0; i < numArr.length; i++) {
-    if (numArr[i] > lrgNum) {
-      lrgNum = numArr[i];
-    }
+const fn = (str) => {
+  let char = str[str.length - 1];
+  for (i = 2; i <= str.length; i++) {
+    char += str[str.length - i];
   }
-  return lrgNum;
+  return char;
 };
 
-console.log(fn([-30, -4, -7, -5]));
+console.log(fn("CocoMooja"));
