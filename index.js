@@ -14,4 +14,4 @@ const fn = (num) => {
   return sum;
 };
 
-console.log(fn(600));
+console.log(fn(700));
