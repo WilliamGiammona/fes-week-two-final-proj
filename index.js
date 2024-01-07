@@ -6,4 +6,4 @@ function closeMenu() {
   document.body.classList.remove("menu--open");
 }
 
-console.log(document.querySelector("#nav"));
+console.log(document.querySelector(".nav__logo"));
