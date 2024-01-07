@@ -6,4 +6,4 @@ function closeMenu() {
   document.body.classList.remove("menu--open");
 }
 
-console.log(document.querySelector("h2"));
+document.querySelector(".nav__logo--title").innerHTML = "Coco";
