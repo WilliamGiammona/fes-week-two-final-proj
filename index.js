@@ -6,4 +6,8 @@ function closeMenu() {
   document.body.classList.remove("menu--open");
 }
 
-const adv = () => {};
+const adv = (arr) => {
+  return starStr;
+};
+
+console.log(adv(5));
